@@ -6,7 +6,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "lindely-candy-ai-chat-history-loader",
+      "id": "candy-ai-chat-history@lindely.github",
       "strict_min_version": "115.0",
       "update_url": "https://raw.githubusercontent.com/lindely/candy-ai-chat-history/master/updates.json"
     }
