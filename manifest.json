@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Candy.AI Chat History Loader",
+  "version": "2023.12.0",
+  "description": "Adds a button to load the full AI's chat history on Candy.AI.",
+
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+
+  "permissions": ["storage"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://candy.ai/*"],
+      "js": ["candy.ai.js"]
+    }
+  ],
+
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  }
+}
