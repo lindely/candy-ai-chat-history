@@ -4,6 +4,14 @@
   "version": "2023.12.0",
   "description": "Adds a button to load the full AI's chat history on Candy.AI.",
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "lindely-candy-ai-chat-history-loader",
+      "strict_min_version": "115.0",
+      "update_url": "https://raw.githubusercontent.com/lindely/candy-ai-chat-history/master/updates.json"
+    }
+  },
+
   "icons": {
     "48": "icons/48.png",
     "96": "icons/96.png"
