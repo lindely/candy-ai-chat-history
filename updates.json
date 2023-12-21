@@ -1,7 +1,12 @@
 {
   "addons": {
     "candy-ai-chat-history@lindely.github": {
-    	"updates": []
+    	"updates": [
+	  {
+            "version": "2023.12.0",
+	    "update_link": "https://github.com/lindely/candy-ai-chat-history/releases/download/2023.12.0/8f76f2e5816440599d9b-2023.12.0.xpi"
+	  }
+	]
     }
   }
 }
